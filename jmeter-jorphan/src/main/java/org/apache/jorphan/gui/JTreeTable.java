@@ -60,7 +60,7 @@ public class JTreeTable extends JTable {
      * @param rowData the data for the table
      * @param columnNames the names for the columns
      */
-    public JTreeTable(Vector<?> rowData, Vector<?> columnNames) {
+    public JTreeTable(Vector<? extends Vector> rowData, Vector<?> columnNames) {
         super(rowData, columnNames);
     }
 
